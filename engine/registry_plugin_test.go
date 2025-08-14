@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test/assert"
-	string2 "github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test/assert"
+	string2 "github.com/yunboom/rulego/utils/str"
 )
 
 var testPluginRuleFile = `

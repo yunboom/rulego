@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/fs"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/fs"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 var _ types.RuleEnginePool = (*Pool)(nil)

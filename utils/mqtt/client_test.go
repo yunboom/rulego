@@ -26,7 +26,7 @@ import (
 	"time"
 
 	paho "github.com/eclipse/paho.mqtt.golang"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // MockToken 模拟Token
@@ -308,9 +308,9 @@ func TestReal_PublishOnly(t *testing.T) {
 	for _, tc := range testCases {
 		t.Run(fmt.Sprintf("QoS_%d", tc.qos), func(t *testing.T) {
 			err := client.Publish(tc.topic, tc.qos, []byte(tc.message))
-				if err != nil {
-					t.Errorf("Expected no error but got: %v", err)
-				}
+			if err != nil {
+				t.Errorf("Expected no error but got: %v", err)
+			}
 		})
 	}
 }

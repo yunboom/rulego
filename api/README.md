@@ -134,7 +134,7 @@ The types package follows the Interface Segregation Principle:
 ### Implementing a Custom Component
 
 ```go
-import "github.com/rulego/rulego/api/types"
+import "github.com/yunboom/rulego/api/types"
 
 type MyCustomNode struct {
     config MyConfiguration

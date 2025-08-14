@@ -19,9 +19,9 @@ package filter
 import (
 	"strings"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/json"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/json"
+	"github.com/yunboom/rulego/utils/maps"
 )
 
 // init 注册FieldFilterNode组件

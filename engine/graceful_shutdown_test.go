@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/action"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
-	str "github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/action"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
+	str "github.com/yunboom/rulego/utils/str"
 )
 
 // 注册测试用的自定义函数

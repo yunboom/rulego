@@ -19,8 +19,8 @@ package endpoint
 import (
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
 )
 
 // DefaultPool is the default instance of the Pool.

@@ -18,12 +18,12 @@ package endpoint
 
 import (
 	"context"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/json"
 	"os"
 	"reflect"
 	"strings"
@@ -80,6 +80,6 @@ func TestDynamicEndpoint(t *testing.T) {
 		assert.Equal(t, relationType, types.Success)
 	}))
 	time.Sleep(time.Millisecond * 2000)
-	
+
 	ep.Destroy()
 }

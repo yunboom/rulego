@@ -82,7 +82,7 @@ import (
 	"net/textproto"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // Event constants define various lifecycle and operational events in the endpoint system.

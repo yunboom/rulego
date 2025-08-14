@@ -134,7 +134,7 @@ types包遵循接口隔离原则：
 ### 实现自定义组件
 
 ```go
-import "github.com/rulego/rulego/api/types"
+import "github.com/yunboom/rulego/api/types"
 
 type MyCustomNode struct {
     config MyConfiguration

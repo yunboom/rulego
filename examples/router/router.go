@@ -17,13 +17,13 @@
 package main
 
 import (
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint"
-	mqttEndpoint "github.com/rulego/rulego/endpoint/mqtt"
-	"github.com/rulego/rulego/endpoint/rest"
-	"github.com/rulego/rulego/utils/mqtt"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint"
+	mqttEndpoint "github.com/yunboom/rulego/endpoint/mqtt"
+	"github.com/yunboom/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/utils/mqtt"
 	"log"
 )
 

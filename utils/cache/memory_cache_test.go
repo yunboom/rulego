@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestMemoryCache(t *testing.T) {

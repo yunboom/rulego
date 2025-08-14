@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/gofrs/uuid/v5"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/utils/dsl"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/utils/dsl"
 )
 
 var (

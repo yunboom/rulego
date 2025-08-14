@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestGenerateKey(t *testing.T) {

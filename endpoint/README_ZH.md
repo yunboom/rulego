@@ -113,7 +113,7 @@ restEndpoint.AddInterceptors(func(exchange *endpoint.Exchange) bool {
 - [MqttEndpoint](/endpoint/mqtt/mqtt_test.go)
 - [ScheduleEndpoint](/endpoint/schedule/schedule_test.go)
 - [NetEndpoint](/endpoint/net/net_test.go)
-- [KafkaEndpoint](https://github.com/rulego/rulego-components/blob/main/endpoint/kafka/kafka_test.go) （扩展组件库）    
+- [KafkaEndpoint](https://github.com/yunboom/rulego-components/blob/main/endpoint/kafka/kafka_test.go) （扩展组件库）    
 
 ## 扩展endpoint
 
@@ -123,9 +123,9 @@ restEndpoint.AddInterceptors(func(exchange *endpoint.Exchange) bool {
 2. 实现[Endpoint接口](/endpoint/endpoint.go#L40) 。Endpoint接口是一个用来定义不同接收服务类型的接口，它定义了一些方法来启动、停止、添加路由和拦截器等。你需要为你的接收服务类型实现这个接口，使得你的服务类型可以和endpoint包中的其他类型进行交互。
 
 以上就是扩展endpoint包的基本步骤，你可以参考已经有的endpoint类型实现来编写你自己的代码：
-- [rest](https://github.com/rulego/rulego/tree/main/endpoint/rest/rest.go)
-- [websocket](https://github.com/rulego/rulego/tree/main/endpoint/websocket/websocket.go)
-- [mqtt](https://github.com/rulego/rulego/tree/main/endpoint/mqtt/mqtt.go)
-- [schedule](https://github.com/rulego/rulego/tree/main/endpoint/schedule/schedule.go)
-- [tcp/udp](https://github.com/rulego/rulego/tree/main/endpoint/net/net.go)
-- [Kafka](https://github.com/rulego/rulego-components/blob/main/endpoint/kafka/kafka.go) （扩展组件库）
+- [rest](https://github.com/yunboom/rulego/tree/main/endpoint/rest/rest.go)
+- [websocket](https://github.com/yunboom/rulego/tree/main/endpoint/websocket/websocket.go)
+- [mqtt](https://github.com/yunboom/rulego/tree/main/endpoint/mqtt/mqtt.go)
+- [schedule](https://github.com/yunboom/rulego/tree/main/endpoint/schedule/schedule.go)
+- [tcp/udp](https://github.com/yunboom/rulego/tree/main/endpoint/net/net.go)
+- [Kafka](https://github.com/yunboom/rulego-components/blob/main/endpoint/kafka/kafka.go) （扩展组件库）

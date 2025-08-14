@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	string2 "github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	string2 "github.com/yunboom/rulego/utils/str"
 	"log"
 	"time"
 )

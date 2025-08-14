@@ -43,7 +43,7 @@ We are committed to providing an open and inclusive community environment. Pleas
 
 ## 3. Submitting Issues/Handling Issue Tasks
 
-- **Submit Issue**: Submit bug reports, feature requests, or suggestions in the [Github Issues](https://github.com/rulego/rulego/issues) .
+- **Submit Issue**: Submit bug reports, feature requests, or suggestions in the [Github Issues](https://github.com/yunboom/rulego/issues) .
 - **Participate in Discussions**: Join the discussion of existing Issues and share your thoughts and feedback.
 - **Claim an Issue**: If you are willing to work on an Issue, assign it to yourself by commenting `/assign @yourself`.
 
@@ -51,7 +51,7 @@ We are committed to providing an open and inclusive community environment. Pleas
 
 ### 4.1 Detailed Steps for Submitting Pull Requests
 
-1. **Check Existing PRs**: Search for related PRs in [Github Pull Requests](https://github.com/rulego/rulego/pulls) to avoid duplicate work.
+1. **Check Existing PRs**: Search for related PRs in [Github Pull Requests](https://github.com/yunboom/rulego/pulls) to avoid duplicate work.
 2. **Discuss Design**: Discussing your design before submitting a PR can help ensure that your work meets the project's requirements.
 3. **Sign DCO**: Ensure each commit is signed with [DCO](https://developercertificate.org) using `git commit -s`.
 4. **Fork the Repository**: Fork and clone the rulego/rulego repository on Github.
@@ -118,16 +118,16 @@ Use the [RuleGo-Editor](https://editor.rulego.cc/) 、[RuleGo-Example](https://e
 ## 5. Participate in Other Community Contributions
 
 ### 5.1 Contribute Extended Components
-- [rulego-components](https://github.com/rulego/rulego-components) : Other extended components.
-- [rulego-components-ai](https://github.com/rulego/rulego-ai) : Components for AI scenarios.
-- [rulego-components-ci](https://github.com/rulego/rulego-ci) : Components for CI/CD scenarios.
-- [rulego-components-iot](https://github.com/rulego/rulego-iot) : Components for IoT scenarios.
-- [rulego-components-etl](https://github.com/rulego/rulego-components-etl): ETL scenario components.
+- [rulego-components](https://github.com/yunboom/rulego-components) : Other extended components.
+- [rulego-components-ai](https://github.com/yunboom/rulego-ai) : Components for AI scenarios.
+- [rulego-components-ci](https://github.com/yunboom/rulego-ci) : Components for CI/CD scenarios.
+- [rulego-components-iot](https://github.com/yunboom/rulego-iot) : Components for IoT scenarios.
+- [rulego-components-etl](https://github.com/yunboom/rulego-components-etl): ETL scenario components.
 - [streamsql](https://github.com/rulego/streamsql): Subproject for enhancing edge computing aggregation capabilities.
-- [rulego-marketplace](https://github.com/rulego/rulego-marketplace): Components marketplace.
+- [rulego-marketplace](https://github.com/yunboom/rulego-marketplace): Components marketplace.
 
 ### 5.2 Contribute Documentation
-- Official documentation: [rulego-doc](https://github.com/rulego/rulego-doc) .
+- Official documentation: [rulego-doc](https://github.com/yunboom/rulego-doc) .
 
 ### 5.3 Contribute Test Cases
 

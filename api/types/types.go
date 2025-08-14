@@ -37,23 +37,23 @@
 // RuleGo provides a complete ecosystem of extension component libraries:
 // RuleGo 提供完整的扩展组件库生态系统：
 //
-//  1. rulego-components (https://github.com/rulego/rulego-components)
+//  1. rulego-components (https://github.com/yunboom/rulego-components)
 //     Core extension components including Kafka, Redis, RabbitMQ, NATS, gRPC, FastHTTP
 //     核心扩展组件，包含 Kafka、Redis、RabbitMQ、NATS、gRPC、FastHTTP 等通用端点和处理组件
 //
-//  2. rulego-components-ai (https://github.com/rulego/rulego-components-ai)
+//  2. rulego-components-ai (https://github.com/yunboom/rulego-components-ai)
 //     AI scenario components for intelligent inference, model invocation, data preprocessing
 //     AI 场景组件库，包含智能推理、模型调用、数据预处理等 AI 相关端点和组件
 //
-//  3. rulego-components-ci (https://github.com/rulego/rulego-components-ci)
+//  3. rulego-components-ci (https://github.com/yunboom/rulego-components-ci)
 //     CI/CD scenario components for code repositories, build tools, deployment platforms
 //     CI/CD 场景组件库，包含代码仓库、构建工具、部署平台集成等 DevOps 相关组件
 //
-//  4. rulego-components-iot (https://github.com/rulego/rulego-components-iot)
+//  4. rulego-components-iot (https://github.com/yunboom/rulego-components-iot)
 //     IoT scenario components for device connectivity, protocol conversion, data acquisition
 //     IoT 场景组件库，包含设备连接、协议转换、数据采集等物联网相关组件
 //
-//  5. rulego-components-etl (https://github.com/rulego/rulego-components-etl)
+//  5. rulego-components-etl (https://github.com/yunboom/rulego-components-etl)
 //     ETL scenario components for database connections, file processing, data cleansing
 //     ETL 场景组件库，包含数据库连接、文件处理、数据清洗等数据处理组件
 //
@@ -519,11 +519,11 @@ type ComponentRegistry interface {
 //	Extension components are available in separate repositories:
 //	标准实现可在 `components` 包中找到。
 //	扩展组件可在单独的仓库中获得：
-//	- github.com/rulego/rulego-components
-//	- github.com/rulego/rulego-components-ai
-//	- github.com/rulego/rulego-components-iot
-//	- github.com/rulego/rulego-components-ci
-//	- github.com/rulego/rulego-components-etl
+//	- github.com/yunboom/rulego-components
+//	- github.com/yunboom/rulego-components-ai
+//	- github.com/yunboom/rulego-components-iot
+//	- github.com/yunboom/rulego-components-ci
+//	- github.com/yunboom/rulego-components-etl
 type Node interface {
 	// New creates a new instance of the component for each rule chain.
 	// This method ensures data isolation between different rule chain instances,

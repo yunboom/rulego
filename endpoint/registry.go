@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint/mqtt"
-	"github.com/rulego/rulego/endpoint/net"
-	"github.com/rulego/rulego/endpoint/rest"
-	"github.com/rulego/rulego/endpoint/schedule"
-	"github.com/rulego/rulego/endpoint/websocket"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint/mqtt"
+	"github.com/yunboom/rulego/endpoint/net"
+	"github.com/yunboom/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/endpoint/schedule"
+	"github.com/yunboom/rulego/endpoint/websocket"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/utils/maps"
 )
 
 // init registers all built-in endpoint components with the default Registry.

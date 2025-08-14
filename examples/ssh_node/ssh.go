@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
 	"log"
 	"time"
 )

@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/cache"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/cache"
 )
 
 // Ensuring DefaultRuleContext implements types.RuleContext interface.

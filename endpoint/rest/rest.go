@@ -50,7 +50,7 @@
 //
 // 1. Registry-based Initialization / 基于注册表的初始化：
 //
-//	import "github.com/rulego/rulego/endpoint"
+//	import "github.com/yunboom/rulego/endpoint"
 //
 //	config := types.Configuration{
 //	    "server": ":8080",
@@ -158,13 +158,13 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	nodeBase "github.com/rulego/rulego/components/base"
-	"github.com/rulego/rulego/endpoint/impl"
-	"github.com/rulego/rulego/utils/maps"
-	"github.com/rulego/rulego/utils/runtime"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	nodeBase "github.com/yunboom/rulego/components/base"
+	"github.com/yunboom/rulego/endpoint/impl"
+	"github.com/yunboom/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/runtime"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // Constants for HTTP headers and content types used throughout the REST endpoint.

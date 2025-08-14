@@ -95,7 +95,7 @@
 - feat(server):增加组件市场、组件安装、组件卸载API
 - feat(server):增加MCP服务器
 - feat(server):组件、规则链、rulego-server API支持自动注册成MCP工具
-- feat(server):rulego-server分离到独立仓库维护: https://github.com/rulego/rulego-server
+- feat(server):rulego-server分离到独立仓库维护: https://github.com/yunboom/rulego-server
 - feat(server):rulego-server 开源新版本的UI
 - fix:修复共享节点一种类型只能配置一个
 - fix:OutBuiltins lock err
@@ -417,7 +417,7 @@
 - feat:dbClient节点组件支持手动导入数据库驱动，例如：TDengine
 - feat:增加schedule endpoint组件 [文档](https://rulego.cc/pages/4c4e4c/)
 - feat:http endpoint增加global options handler
-- feat:增加作为中间件独立运行的规则引擎示例工程，并提供二进制文件 [examples/server](https://github.com/rulego/rulego/tree/main/examples/server)
+- feat:增加作为中间件独立运行的规则引擎示例工程，并提供二进制文件 [examples/server](https://github.com/yunboom/rulego/tree/main/examples/server)
 - feat:endpoint.AddRouterWithParams 返回 routerId
 - feat:可视化相关api返回的json，字段首字母改成小写
 - feat:onDebug回调函数，可以得到规则链id
@@ -473,8 +473,8 @@
 
 ### 其他信息
 
-- 欢迎在 [Gitee](https://gitee.com/rulego/rulego) 或者 [Github](https://github.com/rulego/rulego) 上提交反馈或建议
-- 扩展组件rulego-components：[Gitee](https://gitee.com/rulego/rulego-components)  [Github](https://github.com/rulego/rulego-components)
+- 欢迎在 [Gitee](https://gitee.com/rulego/rulego) 或者 [Github](https://github.com/yunboom/rulego) 上提交反馈或建议
+- 扩展组件rulego-components：[Gitee](https://gitee.com/rulego/rulego-components)  [Github](https://github.com/yunboom/rulego-components)
 - 欢迎加入社区讨论QQ群：720103251
 
 
@@ -482,7 +482,7 @@
 
 ### 新功能
 
-- 新增数据集成模块(**Endpoint**)，使用文档和介绍点击：[Gitee](https://gitee.com/rulego/rulego/blob/main/endpoint/README_ZH.md) 或者 [Github](https://github.com/rulego/rulego/blob/main/endpoint/README_ZH.md)
+- 新增数据集成模块(**Endpoint**)，使用文档和介绍点击：[Gitee](https://gitee.com/rulego/rulego/blob/main/endpoint/README_ZH.md) 或者 [Github](https://github.com/yunboom/rulego/blob/main/endpoint/README_ZH.md)
     - 提供统一的数据处理抽象，方便异构系统数据集成，目前支持HTTP和MQTT协议
     - 支持其他协议集成扩展，例如：kafka数据等
     - 支持统一的数据路由和数据响应
@@ -506,6 +506,6 @@
 ### 其他信息
 
 - 新增RuleGo扩展组件库项目，欢迎贡献组件
-    - 详情点击：[Gitee](https://gitee.com/rulego/rulego-components) 或者 [Github](https://github.com/rulego/rulego-components)
+    - 详情点击：[Gitee](https://gitee.com/rulego/rulego-components) 或者 [Github](https://github.com/yunboom/rulego-components)
 
-- 欢迎在 [Gitee](https://gitee.com/rulego/rulego) 或者 [Github](https://github.com/rulego/rulego) 上提交反馈或建议
+- 欢迎在 [Gitee](https://gitee.com/rulego/rulego) 或者 [Github](https://github.com/yunboom/rulego) 上提交反馈或建议

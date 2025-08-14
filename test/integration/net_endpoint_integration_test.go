@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/external"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/external"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // TestNetEndpointIntegrationDSL 使用DSL配置的NET端点集成测试

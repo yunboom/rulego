@@ -17,8 +17,8 @@
 package engine
 
 import (
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 // JsonParser Json

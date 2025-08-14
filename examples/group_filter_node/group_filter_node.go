@@ -18,8 +18,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
 	"log"
 	"strings"
 	"time"

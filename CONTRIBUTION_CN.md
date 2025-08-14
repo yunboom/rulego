@@ -44,7 +44,7 @@ rulego
 
 ## 3. 提交Issue/处理Issue任务
 
-- **提交Issue**：在[Github Issues](https://github.com/rulego/rulego/issues) 中提交Bug报告、功能请求或建议。
+- **提交Issue**：在[Github Issues](https://github.com/yunboom/rulego/issues) 中提交Bug报告、功能请求或建议。
 - **参与讨论**：加入现有Issue的讨论，分享你的想法和反馈。
 - **领取Issue**：如果你愿意处理某个Issue，请在评论中使用`/assign @yourself`将其分配给自己。
 
@@ -52,7 +52,7 @@ rulego
 
 ### 4.1 提交拉取请求详细步骤
 
-1. **检查现有PR**：在[Github Pull Requests](https://github.com/rulego/rulego/pulls) 中搜索相关PR，避免重复工作。
+1. **检查现有PR**：在[Github Pull Requests](https://github.com/yunboom/rulego/pulls) 中搜索相关PR，避免重复工作。
 2. **讨论设计**：在提交PR前，讨论你的设计可以帮助确保你的工作符合项目需求。
 3. **签署DCO**：使用`git commit -s`确保每次提交都签署了[DCO](https://developercertificate.org) 。
 4. **Fork仓库**：在Github上Fork并Clone rulego/rulego仓库。
@@ -116,16 +116,16 @@ go build -tags "with_extend,with_ai,with_ci,with_iot" .
 ## 5. 参与社区其他贡献
 
 ### 5.1 贡献扩展组件
-- [rulego-components](https://github.com/rulego/rulego-components) ：其他扩展组件。
-- [rulego-components-ai](https://github.com/rulego/rulego-components-ai) ：AI场景组件。
-- [rulego-components-ci](https://github.com/rulego/rulego-components-ci) ：CI/CD场景组件。
-- [rulego-components-iot](https://github.com/rulego/rulego-components-iot) ：IoT场景组件。
-- [rulego-components-etl](https://github.com/rulego/rulego-components-etl) ：ETL场景组件。
+- [rulego-components](https://github.com/yunboom/rulego-components) ：其他扩展组件。
+- [rulego-components-ai](https://github.com/yunboom/rulego-components-ai) ：AI场景组件。
+- [rulego-components-ci](https://github.com/yunboom/rulego-components-ci) ：CI/CD场景组件。
+- [rulego-components-iot](https://github.com/yunboom/rulego-components-iot) ：IoT场景组件。
+- [rulego-components-etl](https://github.com/yunboom/rulego-components-etl) ：ETL场景组件。
 - [streamsql](https://github.com/rulego/streamsql) : 增强边缘计算聚合计算能力的子项目。
-- [rulego-marketplace](https://github.com/rulego/rulego-marketplace) : 组件市场。
+- [rulego-marketplace](https://github.com/yunboom/rulego-marketplace) : 组件市场。
 
 ### 5.2 贡献文档
-- 官网文档：[rulego-doc](https://github.com/rulego/rulego-doc)
+- 官网文档：[rulego-doc](https://github.com/yunboom/rulego-doc)
 
 ### 5.3 贡献测试用例
 

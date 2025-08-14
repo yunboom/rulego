@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/action"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/action"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestMetricsAspect(t *testing.T) {

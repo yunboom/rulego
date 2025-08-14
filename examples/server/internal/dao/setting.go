@@ -3,7 +3,7 @@ package dao
 import (
 	"examples/server/config"
 	"examples/server/internal/model"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/maps"
 	"path"
 	"strings"
 )

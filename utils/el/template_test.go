@@ -25,7 +25,7 @@ import (
 
 	"github.com/expr-lang/expr"
 	"github.com/expr-lang/expr/vm"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 func TestExprTemplate(t *testing.T) {

@@ -42,12 +42,12 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint/rest"
-	"github.com/rulego/rulego/utils/maps"
-	"github.com/rulego/rulego/utils/runtime"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/runtime"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // Type 组件类型

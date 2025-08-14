@@ -3,9 +3,9 @@ package controller
 import (
 	"examples/server/config"
 	"examples/server/internal/constants"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint"
-	"github.com/rulego/rulego/utils/fs"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint"
+	"github.com/yunboom/rulego/utils/fs"
 	"net/http"
 	"os"
 	"path/filepath"

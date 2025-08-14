@@ -53,29 +53,29 @@
 // Core Extension Libraries / 核心扩展库：
 //
 //   - rulego-components: Additional general-purpose endpoint and processing components
-//     (https://github.com/rulego/rulego-components)
+//     (https://github.com/yunboom/rulego-components)
 //     rulego-components：额外的通用端点和处理组件
 //     包含 Kafka、Redis、RabbitMQ、NATS、gRPC、FastHTTP 等端点组件
 //
 // Specialized Extension Libraries / 专用扩展库：
 //
 //   - rulego-components-ai: AI and machine learning scenario components
-//     (https://github.com/rulego/rulego-components-ai)
+//     (https://github.com/yunboom/rulego-components-ai)
 //     rulego-components-ai：AI 和机器学习场景组件
 //     包含智能推理、模型调用、数据预处理等 AI 相关端点和组件
 //
 //   - rulego-components-ci: CI/CD and DevOps scenario components
-//     (https://github.com/rulego/rulego-components-ci)
+//     (https://github.com/yunboom/rulego-components-ci)
 //     rulego-components-ci：CI/CD 和 DevOps 场景组件
 //     包含代码仓库、构建工具、部署平台集成等 CI/CD 相关端点和组件
 //
 //   - rulego-components-iot: Internet of Things scenario components
-//     (https://github.com/rulego/rulego-components-iot)
+//     (https://github.com/yunboom/rulego-components-iot)
 //     rulego-components-iot：物联网场景组件
 //     包含设备连接、协议转换、数据采集等 IoT 相关端点和组件
 //
 //   - rulego-components-etl: Extract, Transform, Load scenario components
-//     (https://github.com/rulego/rulego-components-etl)
+//     (https://github.com/yunboom/rulego-components-etl)
 //     rulego-components-etl：数据提取、转换、加载场景组件
 //     包含数据库连接、文件处理、数据清洗等 ETL 相关端点和组件
 //
@@ -85,12 +85,12 @@
 // 这些扩展库可以与核心 RuleGo 框架一起导入和使用：
 //
 //	import (
-//	    "github.com/rulego/rulego"
-//	    "github.com/rulego/rulego-components/endpoint/kafka"
-//	    "github.com/rulego/rulego-components-ai/llm/openai"
-//	    "github.com/rulego/rulego-components-ci/git/github"
-//	    "github.com/rulego/rulego-components-iot/modbus"
-//	    "github.com/rulego/rulego-components-etl/database/mysql"
+//	    "github.com/yunboom/rulego"
+//	    "github.com/yunboom/rulego-components/endpoint/kafka"
+//	    "github.com/yunboom/rulego-components-ai/llm/openai"
+//	    "github.com/yunboom/rulego-components-ci/git/github"
+//	    "github.com/yunboom/rulego-components-iot/modbus"
+//	    "github.com/yunboom/rulego-components-etl/database/mysql"
 //	)
 //
 // Integration with Rule Chains:

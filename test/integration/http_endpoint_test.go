@@ -18,16 +18,16 @@ package integration
 
 import (
 	"context"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/json"
 	"net/http"
 	"strings"
 	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
 )
 
 func TestHttpAsyncDebugLog(t *testing.T) {

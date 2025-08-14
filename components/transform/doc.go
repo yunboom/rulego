@@ -149,23 +149,23 @@
 //
 //   - rulego-components: Additional extension components for general use
 //     rulego-components：通用扩展组件
-//     https://github.com/rulego/rulego-components
+//     https://github.com/yunboom/rulego-components
 //
 //   - rulego-components-ai: AI scenario components for machine learning integration
 //     rulego-components-ai：机器学习集成的 AI 场景组件
-//     https://github.com/rulego/rulego-components-ai
+//     https://github.com/yunboom/rulego-components-ai
 //
 //   - rulego-components-ci: CI/CD scenario components for DevOps workflows
 //     rulego-components-ci：DevOps 工作流的 CI/CD 场景组件
-//     https://github.com/rulego/rulego-components-ci
+//     https://github.com/yunboom/rulego-components-ci
 //
 //   - rulego-components-iot: IoT scenario components for device connectivity
 //     rulego-components-iot：设备连接的 IoT 场景组件
-//     https://github.com/rulego/rulego-components-iot
+//     https://github.com/yunboom/rulego-components-iot
 //
 //   - rulego-components-etl: ETL scenario components for data processing
 //     rulego-components-etl：数据处理的 ETL 场景组件
-//     https://github.com/rulego/rulego-components-etl
+//     https://github.com/yunboom/rulego-components-etl
 //
 // For detailed documentation on individual components, see their respective source files.
 // 有关各个组件的详细文档，请参见其各自的源文件。

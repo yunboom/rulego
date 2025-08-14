@@ -17,7 +17,7 @@
 package action
 
 import (
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 var Registry = &types.SafeComponentSlice{}

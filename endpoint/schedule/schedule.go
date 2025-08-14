@@ -84,7 +84,7 @@
 //
 // 1. Registry-based Initialization / 基于注册表的初始化：
 //
-//	import "github.com/rulego/rulego/endpoint"
+//	import "github.com/yunboom/rulego/endpoint"
 //
 //	// Create endpoint through registry
 //	// 通过注册表创建端点
@@ -179,10 +179,10 @@ import (
 
 	"github.com/gofrs/uuid/v5"
 	"github.com/robfig/cron/v3"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint/impl"
-	"github.com/rulego/rulego/utils/runtime"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint/impl"
+	"github.com/yunboom/rulego/utils/runtime"
 )
 
 // Type defines the component type identifier for the Schedule endpoint.

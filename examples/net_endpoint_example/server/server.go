@@ -33,10 +33,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rulego/rulego"
+	"github.com/yunboom/rulego"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/engine"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/engine"
 )
 
 const (

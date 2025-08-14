@@ -1,10 +1,10 @@
 # RuleGo
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/rulego/rulego)](https://pkg.go.dev/github.com/rulego/rulego)
-[![Go Report](https://goreportcard.com/badge/github.com/rulego/rulego)](https://goreportcard.com/report/github.com/rulego/rulego)
+[![GoDoc](https://pkg.go.dev/badge/github.com/yunboom/rulego)](https://pkg.go.dev/github.com/yunboom/rulego)
+[![Go Report](https://goreportcard.com/badge/github.com/yunboom/rulego)](https://goreportcard.com/report/github.com/yunboom/rulego)
 [![codecov](https://codecov.io/gh/rulego/rulego/graph/badge.svg?token=G6XCGY7KVN)](https://codecov.io/gh/rulego/rulego)
-[![test](https://github.com/rulego/rulego/workflows/test/badge.svg)](https://github.com/rulego/rulego/actions/workflows/test.yml)
-[![build](https://github.com/rulego/rulego/workflows/build/badge.svg)](https://github.com/rulego/rulego/actions/workflows/build.yml)
+[![test](https://github.com/yunboom/rulego/workflows/test/badge.svg)](https://github.com/yunboom/rulego/actions/workflows/test.yml)
+[![build](https://github.com/yunboom/rulego/workflows/build/badge.svg)](https://github.com/yunboom/rulego/actions/workflows/build.yml)
 [![QQ交流群-720103251](https://img.shields.io/badge/QQ交流群-720103251-orange)](https://qm.qq.com/q/8RDaYcOry8)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go?tab=readme-ov-file#iot-internet-of-things)  
 
@@ -81,7 +81,7 @@
 使用`go get`命令安装`RuleGo`：
 
 ```bash
-go get github.com/rulego/rulego
+go get github.com/yunboom/rulego
 ```
 
 或者使用gitee/gitcode源
@@ -101,7 +101,7 @@ go get gitcode.com/rulego/rulego
 2. 导入`RuleGo`包，并使用规则链定义，创建一个规则引擎实例：
 
 ```go
-import "github.com/rulego/rulego"
+import "github.com/yunboom/rulego"
 //加载规则链定义文件
 ruleFile := fs.LoadFile("chain_call_rest_api.json")
 //使用规则链定义，创建一个规则引擎实例
@@ -161,12 +161,12 @@ ruleEngine, err := rulego.New("rule01", []byte(ruleFile), rulego.WithConfig(conf
 ### 规则链节点组件
 `RuleGo` 的核心特性是组件化，所有业务逻辑都是组件，并能灵活配置和重用它们。目前RuleGo 已经内置了大量常用的组件。
 - [标准组件](https://rulego.cc/pages/88fc3c/) 
-- [rulego-components](https://github.com/rulego/rulego-components)  :[文档](https://rulego.cc/pages/d7fc43/) 
-- [rulego-components-ai](https://github.com/rulego/rulego-components-ai) 
-- [rulego-components-ci](https://github.com/rulego/rulego-components-ci) 
-- [rulego-components-iot](https://github.com/rulego/rulego-components-iot) 
-- [rulego-components-etl](https://github.com/rulego/rulego-components-etl) 
-- [rulego-marketplace](https://github.com/rulego/rulego-marketplace) ：动态组件和规则链市场
+- [rulego-components](https://github.com/yunboom/rulego-components)  :[文档](https://rulego.cc/pages/d7fc43/) 
+- [rulego-components-ai](https://github.com/yunboom/rulego-components-ai) 
+- [rulego-components-ci](https://github.com/yunboom/rulego-components-ci) 
+- [rulego-components-iot](https://github.com/yunboom/rulego-components-iot) 
+- [rulego-components-etl](https://github.com/yunboom/rulego-components-etl) 
+- [rulego-marketplace](https://github.com/yunboom/rulego-marketplace) ：动态组件和规则链市场
 - [自定义节点组件示例](examples/custom_component) :[文档](https://rulego.cc/pages/caed1b/)
 
 ## 数据集成
@@ -177,7 +177,7 @@ ruleEngine, err := rulego.New("rule01", []byte(ruleFile), rulego.WithConfig(conf
 - [Endpoint DSL](https://rulego.cc/pages/390ad7/)
 
 ### RuleGo-Server
-我们提供了一个基于`RuleGo`的开箱即用自动化工作流平台：[RuleGo-Server](https://github.com/rulego/rulego-server) ，
+我们提供了一个基于`RuleGo`的开箱即用自动化工作流平台：[RuleGo-Server](https://github.com/yunboom/rulego-server) ，
 以及配套的前端可视化编辑器：[RuleGo-Editor](https://editor.rulego.cc/) 。
 
 ## 性能
@@ -197,13 +197,13 @@ ruleEngine, err := rulego.New("rule01", []byte(ruleFile), rulego.WithConfig(conf
 ## 生态
 
 - [RuleGo-Editor](https://editor.rulego.cc/) ：规则链可视化编辑器
-- [RuleGo-Server](https://github.com/rulego/rulego-server) ：自动化工作流平台
+- [RuleGo-Server](https://github.com/yunboom/rulego-server) ：自动化工作流平台
 - [rulego-components](https://gitee.com/rulego/rulego-components) ：扩展组件库
-- [rulego-components-ai](https://github.com/rulego/rulego-components-ai) ：AI场景组件库
-- [rulego-components-ci](https://github.com/rulego/rulego-components-ci) ：CI/CD场景组件库
-- [rulego-components-iot](https://github.com/rulego/rulego-components-iot) ：IoT场景组件库
-- [rulego-components-etl](https://github.com/rulego/rulego-components-etl) ：ETL场景组件库
-- [rulego-marketplace](https://github.com/rulego/rulego-marketplace) ：动态组件和规则链市场
+- [rulego-components-ai](https://github.com/yunboom/rulego-components-ai) ：AI场景组件库
+- [rulego-components-ci](https://github.com/yunboom/rulego-components-ci) ：CI/CD场景组件库
+- [rulego-components-iot](https://github.com/yunboom/rulego-components-iot) ：IoT场景组件库
+- [rulego-components-etl](https://github.com/yunboom/rulego-components-etl) ：ETL场景组件库
+- [rulego-marketplace](https://github.com/yunboom/rulego-marketplace) ：动态组件和规则链市场
 
 ## 贡献
 

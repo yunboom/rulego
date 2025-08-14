@@ -74,13 +74,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/rulego/rulego/api/types/metrics"
-	"github.com/rulego/rulego/utils/cache"
+	"github.com/yunboom/rulego/api/types/metrics"
+	"github.com/yunboom/rulego/utils/cache"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/builtin/aspect"
-	"github.com/rulego/rulego/builtin/funcs"
-	"github.com/rulego/rulego/components/base"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/builtin/aspect"
+	"github.com/yunboom/rulego/builtin/funcs"
+	"github.com/yunboom/rulego/components/base"
 )
 
 // Ensuring RuleEngine implements types.RuleEngine interface.

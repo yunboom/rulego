@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid/v5"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/cache"
-	reflect2 "github.com/rulego/rulego/utils/reflect"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/cache"
+	reflect2 "github.com/yunboom/rulego/utils/reflect"
 
 	"testing"
 )

@@ -21,20 +21,20 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/builtin/processor"
-	"github.com/rulego/rulego/endpoint/impl"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/builtin/processor"
+	"github.com/yunboom/rulego/endpoint/impl"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 // Endpoint is an alias for the Endpoint interface in the endpoint package.
 // Endpoint 是端点包中 Endpoint 接口的别名。
 type Endpoint = endpoint.Endpoint
 
-// Exchange is deprecated. Use Flow from github.com/rulego/rulego/api/types/endpoint.Exchange instead.
-// Exchange 已弃用。请使用 github.com/rulego/rulego/api/types/endpoint.Exchange 中的 Flow。
+// Exchange is deprecated. Use Flow from github.com/yunboom/rulego/api/types/endpoint.Exchange instead.
+// Exchange 已弃用。请使用 github.com/yunboom/rulego/api/types/endpoint.Exchange 中的 Flow。
 type Exchange = endpoint.Exchange
 
 // NewRouter creates a new router with the provided options.

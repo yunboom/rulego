@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestSaveAndLoadFile(t *testing.T) {

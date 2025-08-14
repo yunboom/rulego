@@ -120,8 +120,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
 )
 
 const (

@@ -45,7 +45,7 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 const (

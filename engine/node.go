@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 const (

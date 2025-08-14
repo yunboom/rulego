@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // FallbackErr is returned when a node execution is skipped due to circuit breaker activation.

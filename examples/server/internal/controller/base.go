@@ -14,14 +14,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rulego/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/endpoint/rest"
 
 	"github.com/golang-jwt/jwt"
-	"github.com/rulego/rulego/api/types"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 var ErrIllegalToken = errors.New("illegal token")

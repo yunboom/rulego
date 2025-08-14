@@ -18,12 +18,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/components/action"
-	"github.com/rulego/rulego/endpoint"
-	"github.com/rulego/rulego/endpoint/rest"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/components/action"
+	"github.com/yunboom/rulego/endpoint"
+	"github.com/yunboom/rulego/endpoint/rest"
 	"net/http"
 	"os"
 	"os/signal"

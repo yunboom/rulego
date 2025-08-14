@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 func BenchmarkChainNotChangeMetadata(b *testing.B) {

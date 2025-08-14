@@ -24,11 +24,11 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/base"
-	"github.com/rulego/rulego/utils/el"
-	"github.com/rulego/rulego/utils/maps"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/base"
+	"github.com/yunboom/rulego/utils/el"
+	"github.com/yunboom/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // 注册节点

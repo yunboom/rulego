@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // MockRuleContext 模拟 RuleContext 进行测试

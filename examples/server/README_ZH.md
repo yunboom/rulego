@@ -2,7 +2,7 @@
 
 [English](README.md)| 中文
 
-`RuleGo-Server`一个独立运行的开箱即用规则引擎服务，该工程也是一个开发RuleGo应用的脚手架。你可以基于该工程进行二次开发，也可以直接下载可执行[二进制文件](https://github.com/rulego/rulego/releases)。
+`RuleGo-Server`一个独立运行的开箱即用规则引擎服务，该工程也是一个开发RuleGo应用的脚手架。你可以基于该工程进行二次开发，也可以直接下载可执行[二进制文件](https://github.com/yunboom/rulego/releases)。
 
 可视化编辑器：[RuleGo-Editor](https://editor.rulego.cc/) ，配置该工程HTTP API，可以对规则链管理和调试。
 
@@ -105,25 +105,25 @@ curl -H "Authorization: Bearer apiKey" http://localhost:8080/api/resource
 
 ## server编译
 
-为了节省编译后文件大小，默认不引入扩展组件[rulego-components](https://github.com/rulego/rulego-components) ，默认编译：
+为了节省编译后文件大小，默认不引入扩展组件[rulego-components](https://github.com/yunboom/rulego-components) ，默认编译：
 
 ```shell
 cd cmd/server
 go build .
 ```
 
-如果需要引入扩展组件[rulego-components](https://github.com/rulego/rulego-components) ，使用`with_extend`tag进行编译：
+如果需要引入扩展组件[rulego-components](https://github.com/yunboom/rulego-components) ，使用`with_extend`tag进行编译：
 
 ```shell
 cd cmd/server
 go build -tags with_extend .
 ```
 其他扩展组件库tags：
-- 注册扩展组件[rulego-components](https://github.com/rulego/rulego-components) ，使用`with_extend`tag进行编译：
-- 注册AI扩展组件[rulego-components-ai](https://github.com/rulego/rulego-components-ai) ，使用`with_ai`tag进行编译
-- 注册CI/CD扩展组件[rulego-components-ci](https://github.com/rulego/rulego-components-ci) ，使用`with_ci`tag进行编译
-- 注册IoT扩展组件[rulego-components-iot](https://github.com/rulego/rulego-components-iot) ，使用`with_iot`tag进行编译
-- 注册ETL扩展组件[rulego-components-etl](https://github.com/rulego/rulego-components-etl) ，使用`with_etl`tag进行编译
+- 注册扩展组件[rulego-components](https://github.com/yunboom/rulego-components) ，使用`with_extend`tag进行编译：
+- 注册AI扩展组件[rulego-components-ai](https://github.com/yunboom/rulego-components-ai) ，使用`with_ai`tag进行编译
+- 注册CI/CD扩展组件[rulego-components-ci](https://github.com/yunboom/rulego-components-ci) ，使用`with_ci`tag进行编译
+- 注册IoT扩展组件[rulego-components-iot](https://github.com/yunboom/rulego-components-iot) ，使用`with_iot`tag进行编译
+- 注册ETL扩展组件[rulego-components-etl](https://github.com/yunboom/rulego-components-etl) ，使用`with_etl`tag进行编译
 - 使用`fasthttp`代替标准`endpoint/http`和`restApiCall`组件 ，使用`use_fasthttp`tag进行编译
 
 如果需要同时引入多个扩展组件库，可以使用`go build -tags "with_extend,with_ai,with_ci,with_iot,with_etl,use_fasthttp" .` tag进行编译。

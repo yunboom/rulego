@@ -109,11 +109,11 @@
 package rulego
 
 import (
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/builtin/aspect"
-	"github.com/rulego/rulego/endpoint"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/node_pool"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/builtin/aspect"
+	"github.com/yunboom/rulego/endpoint"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/node_pool"
 )
 
 // Registry is the default registrar for rule engine components.

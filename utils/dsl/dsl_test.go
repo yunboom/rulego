@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 func TestIsFlowNode(t *testing.T) {

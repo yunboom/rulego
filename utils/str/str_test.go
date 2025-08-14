@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // 为了避免循环导入，在测试中直接定义常量

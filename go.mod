@@ -1,4 +1,4 @@
-module github.com/rulego/rulego
+module github.com/yunboom/rulego
 
 go 1.20
 

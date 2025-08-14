@@ -24,8 +24,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/gofrs/uuid/v5"
-	"github.com/rulego/rulego/utils/json"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/utils/json"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // DataType defines the type of data contained in a message.

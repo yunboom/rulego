@@ -10,14 +10,14 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint/impl"
-	"github.com/rulego/rulego/endpoint/rest"
-	"github.com/rulego/rulego/engine"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint/impl"
+	"github.com/yunboom/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/engine"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/maps"
 )
 
 var testdataFolder = "../../testdata/rule"

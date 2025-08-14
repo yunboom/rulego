@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // mockLogger is a test logger implementation

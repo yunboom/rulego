@@ -19,7 +19,7 @@ package endpoint
 import (
 	"context"
 
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // RouterOption defines a function type for configuring router components using the Options pattern.

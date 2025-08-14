@@ -7,11 +7,11 @@ import (
 	"examples/server/internal/service"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint"
-	websocketEndpoint "github.com/rulego/rulego/endpoint/websocket"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego/api/types"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint"
+	websocketEndpoint "github.com/yunboom/rulego/endpoint/websocket"
+	"github.com/yunboom/rulego/utils/json"
 )
 
 // NewWebsocketServe Websocket服务 接收端点

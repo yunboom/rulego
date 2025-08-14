@@ -34,13 +34,13 @@
 package reflect
 
 import (
-	"github.com/rulego/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/api/types/endpoint"
 	"reflect"
 	"strconv"
 	"strings"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // GetComponentForm 获取组件的表单结构
@@ -50,8 +50,8 @@ func GetComponentForm(component types.Node) types.ComponentForm {
 	t, configField, configValue := GetComponentConfig(component)
 	componentForm.Label = t.Name()
 	componentForm.Type = component.Type()
-	componentForm.Category = strings.Replace(t.PkgPath(), "github.com/rulego/rulego/components/", "", -1)
-	componentForm.Category = strings.Replace(componentForm.Category, "github.com/rulego/rulego-components/", "", -1)
+	componentForm.Category = strings.Replace(t.PkgPath(), "github.com/yunboom/rulego/components/", "", -1)
+	componentForm.Category = strings.Replace(componentForm.Category, "github.com/yunboom/rulego-components/", "", -1)
 	componentForm.Fields = GetFields(configField, configValue)
 	var relationTypes = []string{types.Success, types.Failure}
 	componentForm.ComponentKind = types.ComponentKindNative

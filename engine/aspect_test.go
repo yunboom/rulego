@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/builtin/aspect"
-	"github.com/rulego/rulego/test/assert"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/builtin/aspect"
+	"github.com/yunboom/rulego/test/assert"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // 测试故障降级切面

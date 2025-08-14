@@ -28,10 +28,10 @@ package transform
 
 import (
 	"bytes"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/builtin/funcs"
-	"github.com/rulego/rulego/components/base"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/builtin/funcs"
+	"github.com/yunboom/rulego/components/base"
+	"github.com/yunboom/rulego/utils/maps"
 	"path/filepath"
 	"strings"
 	"text/template"

@@ -18,9 +18,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/action"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/action"
 	"log"
 	"time"
 )

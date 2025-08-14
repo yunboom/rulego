@@ -3,7 +3,7 @@ package el
 import (
 	"github.com/expr-lang/expr"
 	"github.com/expr-lang/expr/vm"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/utils/str"
 	"regexp"
 	"strings"
 )

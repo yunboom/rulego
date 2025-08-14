@@ -37,8 +37,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rulego/rulego/utils/json"
-	"github.com/rulego/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/json"
+	"github.com/yunboom/rulego/utils/maps"
 )
 
 // VarPrefix 模板变量前缀

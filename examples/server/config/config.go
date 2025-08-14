@@ -4,7 +4,7 @@ import (
 	"examples/server/internal/constants"
 	"strings"
 
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 var C Config

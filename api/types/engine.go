@@ -19,7 +19,7 @@ package types
 import (
 	"context"
 
-	"github.com/rulego/rulego/api/types/metrics"
+	"github.com/yunboom/rulego/api/types/metrics"
 )
 
 // RuleEngineOption defines a function type for configuring a RuleEngine.

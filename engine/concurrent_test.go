@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // TestForNodeConcurrentMetadataAccess 测试for节点在并发场景下的元数据读写安全性

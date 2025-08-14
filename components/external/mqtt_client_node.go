@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/rulego/rulego/utils/mqtt"
+	"github.com/yunboom/rulego/utils/mqtt"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/base"
-	"github.com/rulego/rulego/utils/maps"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/base"
+	"github.com/yunboom/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // MqttClientNode 为MQTT代理提供MQTT客户端功能以发布消息的外部组件

@@ -19,7 +19,7 @@ package funcs
 import (
 	"testing"
 
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestBuiltinFunc(t *testing.T) {

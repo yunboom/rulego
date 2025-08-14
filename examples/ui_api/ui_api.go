@@ -17,12 +17,12 @@
 package main
 
 import (
-	"github.com/rulego/rulego"
-	"github.com/rulego/rulego/api/types"
-	endpointApi "github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/endpoint"
-	"github.com/rulego/rulego/endpoint/rest"
-	"github.com/rulego/rulego/utils/json"
+	"github.com/yunboom/rulego"
+	"github.com/yunboom/rulego/api/types"
+	endpointApi "github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/endpoint"
+	"github.com/yunboom/rulego/endpoint/rest"
+	"github.com/yunboom/rulego/utils/json"
 	"os"
 	"os/signal"
 	"syscall"

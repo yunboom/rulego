@@ -2,7 +2,7 @@
 
 English| [中文](README_ZH.md)
 
-`RuleGo-Server` is a ready-to-use standalone rule engine service, and this project is also a scaffold for developing RuleGo applications. You can perform secondary development based on this project, or you can directly download the executable [binary files](https://github.com/rulego/rulego/releases).
+`RuleGo-Server` is a ready-to-use standalone rule engine service, and this project is also a scaffold for developing RuleGo applications. You can perform secondary development based on this project, or you can directly download the executable [binary files](https://github.com/yunboom/rulego/releases).
 
 Visual Editor:[RuleGo-Editor](https://editor.rulego.cc/), configure the HTTP API of this project to manage and debug rule chains.
 
@@ -108,25 +108,25 @@ curl -H "Authorization: Bearer apiKey" http://localhost:8080/api/resource
 
 ## server compilation
 
-To save the size of the compiled file, the extension component [rulego-components](https://github.com/rulego/rulego-components) is not included by default. Compile with the default setting:
+To save the size of the compiled file, the extension component [rulego-components](https://github.com/yunboom/rulego-components) is not included by default. Compile with the default setting:
 
 ```shell
 cd cmd/server
 go build .
 ```
 
-If you need to include the extension component [rulego-components](https://github.com/rulego/rulego-components), compile with the `with_extend` tag:
+If you need to include the extension component [rulego-components](https://github.com/yunboom/rulego-components), compile with the `with_extend` tag:
 
 ```shell
 cd cmd/server
 go build -tags with_extend .
 ```
 Other extension component library tags:
-- To register the extension component [rulego-components](https://github.com/rulego/rulego-components), compile with the `with_extend` tag.
-- To register the AI extension component [rulego-components-ai](https://github.com/rulego/rulego-components-ai), compile with the `with_ai` tag.
-- To register the CI/CD extension component [rulego-components-ci](https://github.com/rulego/rulego-components-ci), compile with the `with_ci` tag.
-- To register the IoT extension component [rulego-components-iot](https://github.com/rulego/rulego-components-iot), compile with the `with_iot` tag.
-- To register the ETL extension component [rulego-components-etl](https://github.com/rulego/rulego-components-etl), compile with the `with_etl` tag.
+- To register the extension component [rulego-components](https://github.com/yunboom/rulego-components), compile with the `with_extend` tag.
+- To register the AI extension component [rulego-components-ai](https://github.com/yunboom/rulego-components-ai), compile with the `with_ai` tag.
+- To register the CI/CD extension component [rulego-components-ci](https://github.com/yunboom/rulego-components-ci), compile with the `with_ci` tag.
+- To register the IoT extension component [rulego-components-iot](https://github.com/yunboom/rulego-components-iot), compile with the `with_iot` tag.
+- To register the ETL extension component [rulego-components-etl](https://github.com/yunboom/rulego-components-etl), compile with the `with_etl` tag.
 - Replace the standard `endpoint/http` and `restApiCall` components with `fasthttp`, and compile with the `use_fasthttp` tag.
 
 If you need to include multiple extension component libraries at the same time, you can compile with the `go build -tags "with_extend,with_ai,with_ci,with_iot,with_etl,use_fasthttp" .` tag.

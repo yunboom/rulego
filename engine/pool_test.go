@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // TestRuleGo 测试加载规则链文件夹

@@ -22,13 +22,13 @@ import (
 	"plugin"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/action"
-	"github.com/rulego/rulego/components/external"
-	"github.com/rulego/rulego/components/filter"
-	"github.com/rulego/rulego/components/flow"
-	"github.com/rulego/rulego/components/transform"
-	"github.com/rulego/rulego/utils/reflect"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/action"
+	"github.com/yunboom/rulego/components/external"
+	"github.com/yunboom/rulego/components/filter"
+	"github.com/yunboom/rulego/components/flow"
+	"github.com/yunboom/rulego/components/transform"
+	"github.com/yunboom/rulego/utils/reflect"
 )
 
 // PluginsSymbol is the symbol used to identify plugins in a Go plugin file.

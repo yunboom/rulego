@@ -49,7 +49,7 @@
 //
 // 1. Registry-based Initialization / 基于注册表的初始化：
 //
-//	import "github.com/rulego/rulego/endpoint"
+//	import "github.com/yunboom/rulego/endpoint"
 //
 //	config := types.Configuration{
 //	    "server": "127.0.0.1:1883",
@@ -153,17 +153,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/rulego/rulego/utils/mqtt"
+	"github.com/yunboom/rulego/utils/mqtt"
 
-	"github.com/rulego/rulego/utils/cast"
+	"github.com/yunboom/rulego/utils/cast"
 
 	paho "github.com/eclipse/paho.mqtt.golang"
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/endpoint"
-	"github.com/rulego/rulego/components/base"
-	"github.com/rulego/rulego/endpoint/impl"
-	"github.com/rulego/rulego/utils/maps"
-	"github.com/rulego/rulego/utils/runtime"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/endpoint"
+	"github.com/yunboom/rulego/components/base"
+	"github.com/yunboom/rulego/endpoint/impl"
+	"github.com/yunboom/rulego/utils/maps"
+	"github.com/yunboom/rulego/utils/runtime"
 )
 
 // Type defines the component type identifier for the MQTT endpoint.

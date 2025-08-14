@@ -23,7 +23,7 @@ package filter
 //        "name": "消息路由"
 //      }
 import (
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // KeyDefaultRelationType 找不到匹配节点时使用的默认关系名称

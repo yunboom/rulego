@@ -17,13 +17,13 @@
 package engine
 
 import (
-	"github.com/rulego/rulego/builtin/aspect"
+	"github.com/yunboom/rulego/builtin/aspect"
 	"testing"
 	"time"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/components/action"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/components/action"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 func TestConcurrencyLimiterAspect(t *testing.T) {

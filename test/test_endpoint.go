@@ -21,8 +21,8 @@ import (
 	"net/textproto"
 	"testing"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/test/assert"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/test/assert"
 )
 
 // EndpointMessage 测试endpoint请求、响应消息

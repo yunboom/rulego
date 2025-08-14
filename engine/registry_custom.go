@@ -17,7 +17,7 @@
 package engine
 
 import (
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // CustomComponentRegistry combines default and custom component registries

@@ -44,7 +44,7 @@ import (
 	"fmt"
 
 	paho "github.com/eclipse/paho.mqtt.golang"
-	string2 "github.com/rulego/rulego/utils/str"
+	string2 "github.com/yunboom/rulego/utils/str"
 
 	"io/ioutil"
 	"sync"

@@ -23,7 +23,7 @@ package filter
 //        "name": "并行网关"
 //      }
 import (
-	"github.com/rulego/rulego/api/types"
+	"github.com/yunboom/rulego/api/types"
 )
 
 // init 注册ForkNode组件

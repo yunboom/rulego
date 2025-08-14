@@ -113,7 +113,7 @@ The following are examples of using endpoint:
 - [MqttEndpoint](/endpoint/mqtt/mqtt_test.go)
 - [ScheduleEndpoint](/endpoint/schedule/schedule_test.go)
 - [NetEndpoint](/endpoint/net/net_test.go)
-- [KafkaEndpoint](https://github.com/rulego/rulego-components/blob/main/endpoint/kafka/kafka_test.go) (extension component library)
+- [KafkaEndpoint](https://github.com/yunboom/rulego-components/blob/main/endpoint/kafka/kafka_test.go) (extension component library)
 
 ## Extend endpoint
 
@@ -123,9 +123,9 @@ The following are examples of using endpoint:
 2. Implement the [Endpoint interface](/endpoint/endpoint.go#L40) . The Endpoint interface is an interface that defines different receiving service types, and it defines some methods to start, stop, add routes and interceptors, etc. You need to implement this interface for your receiving service type, so that your service type can interact with other types in the endpoint package.
 
 The above are the basic steps to extend the endpoint package, you can refer to the existing endpoint type implementations to write your own code:
-- [rest](https://github.com/rulego/rulego/tree/main/endpoint/rest/rest.go)
-- [websocket](https://github.com/rulego/rulego/tree/main/endpoint/websocket/websocket.go)
-- [mqtt](https://github.com/rulego/rulego/tree/main/endpoint/mqtt/mqtt.go)
-- [schedule](https://github.com/rulego/rulego/tree/main/endpoint/schedule/schedule.go)
-- [tcp/udp](https://github.com/rulego/rulego/tree/main/endpoint/net/net.go)
-- [Kafka](https://github.com/rulego/rulego-components/blob/main/endpoint/kafka/kafka.go) (extension component library)
+- [rest](https://github.com/yunboom/rulego/tree/main/endpoint/rest/rest.go)
+- [websocket](https://github.com/yunboom/rulego/tree/main/endpoint/websocket/websocket.go)
+- [mqtt](https://github.com/yunboom/rulego/tree/main/endpoint/mqtt/mqtt.go)
+- [schedule](https://github.com/yunboom/rulego/tree/main/endpoint/schedule/schedule.go)
+- [tcp/udp](https://github.com/yunboom/rulego/tree/main/endpoint/net/net.go)
+- [Kafka](https://github.com/yunboom/rulego-components/blob/main/endpoint/kafka/kafka.go) (extension component library)

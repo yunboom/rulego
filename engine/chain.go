@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/utils/aes"
-	"github.com/rulego/rulego/utils/str"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/utils/aes"
+	"github.com/yunboom/rulego/utils/str"
 )
 
 // RelationCache caches the outgoing node relationships based on the incoming node.

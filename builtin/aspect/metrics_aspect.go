@@ -1,8 +1,8 @@
 package aspect
 
 import (
-	"github.com/rulego/rulego/api/types"
-	"github.com/rulego/rulego/api/types/metrics"
+	"github.com/yunboom/rulego/api/types"
+	"github.com/yunboom/rulego/api/types/metrics"
 )
 
 // MetricsAspect implements comprehensive metrics collection for rule engine execution.
